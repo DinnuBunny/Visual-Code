@@ -6,6 +6,10 @@ screen = turtle.Screen()
 screen.bgcolor('black')
 t.color('white')
 
+t.speed(10)
+t.penup()
+t.goto(-250,100)
+t.pendown()
 
 t.left(90)
 t.forward(150)
@@ -45,26 +49,31 @@ t.forward(60)
 t.color('white')
 t.left(90)
 t.forward(150)
-t.color('black')
-
-
-turtle.done()
+#t.color('black')
 
 
 
+
+
+t.penup()
+t.goto(-250,90)
+t.pendown()
 
 
 #W letter
-# t.color('white')
-# t.right(65)
-# t.forward(180)
+t.color('white')
+t.left(20)
+t.forward(150)
 
 
-# t.left(135)
-# t.forward(100)
+t.left(145)
+t.forward(90)
 
-# t.right(135)
-# t.forward(100)
+t.right(145)
+t.forward(90)
 
-# t.left(135)
-# t.forward(180)
+t.left(140)
+t.forward(150)
+
+
+turtle.done()

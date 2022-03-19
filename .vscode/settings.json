@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "Dinnu Python turtle projects"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
