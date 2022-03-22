@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.full-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.toggle-on {
+    /* margin-top: 200px; */
+    display: flex;
+    align-items: center;
+    background-color: #34c759;
+    height: 51px;
+    width: 101px;
+    border-radius: 40px;
+    /* border: 1px solid black; */
+}
+
+.ball-one {
+    /* margin: 1px; */
+    width: 57px;
+    height: 57px;
+    background-color: #fff;
+    /* opacity: 0.9; */
+    border: 0.2px solid black;
+    border-radius: 80px;
+}
+
+.ball-two {
+
+    /* margin: 1px; */
+    width: 57px;
+    height: 57px;
+    background-color: #fff;
+    opacity: 5;
+    border-radius: 80px;
+}
+
+.hide {
+    display: none;
+}
+
+.offf {
+    justify-content: flex-end;
+    background-color: #e9e9ea;
+}
