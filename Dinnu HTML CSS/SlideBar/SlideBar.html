@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="SlideBar.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/ce5bfdb1ef.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="dashboard-container position-static" id="dashBoardCont">
+            <div class="dash-head" id="openId">
+                <i class="fa-solid fa-bars iconM" id="openIcon"></i>
+                <h1 class="dash-heading hide" id="dashHead">Dashboard</h1>
+                <i class="fas fa-window-close iconM hide" id="closeIcon"></i>
+            </div>
+            <div>
+                <div class="dash-options">
+                    <i class="fas fa-home icon" id="optionsIcons"></i>
+                    <h1 class="option-head hide" id="home">Home</h1>
+                </div>
+                <div class="dash-options">
+                    <i class="fas fa-download icon"></i>
+                    <h1 class="option-head hide" id="download">Downloads</h1>
+                </div>
+                <div class="dash-options">
+                    <i class="fas fa-star icon"></i>
+                    <h1 class="option-head hide" id="favorites">Favorites</h1>
+                </div>
+                <div class="dash-options">
+                    <i class="fas fa-cog icon"></i>
+                    <h1 class="option-head hide" id="settings">Settings</h1>
+                </div>
+            </div>
+            <div class="dash-bottom-container">
+                <img src="https://res.cloudinary.com/dinnubunny/image/upload/v1637906622/FB/38729561_955301921319140_4698219353059885056_n.jpg_chpvn2.jpg" class="dash-img" />
+                <h1 class="dash-bottom-head hide" id="name">Sarah Meyers</h1>
+            </div>
+        </div>
+        <!-- ________________________________________________________________________________________ -->
+        <div class="fav-container">
+            <div class="fav-main-head-cont">
+                <h1 class="fav-heading">My Favorites</h1>
+            </div>
+            <div class="quick-cont">
+                <div class="quick-head-cont">
+                    <a href="#carId" class="quick-head">Cars</a>
+                </div>
+                <div class="quick-head-cont">
+                    <a href="#bikeId" class="quick-head">Bikes</a>
+                </div>
+                <div class="quick-head-cont">
+                    <a href="#houseId" class="quick-head">Houses</a>
+                </div>
+            </div>
+            <div class="favvvv">
+                <div class="fav-containers fav-containers1">
+                    <h1 class="fav-container-heading" id="carId">Cars</h1>
+                    <!-- <video width="320" height="240" controls>
+                        <source src="https://res.cloudinary.com/dinnubunny/video/upload/v1647917772/Raataan_Lambiyan_-_Full_Song_Video_Shershaah__Sidharth_E2_80_93Kiara_Tanishk_B._Jubin_Asees_1080p_ndmaci.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="fav-img-container">
+                        <div class="img-cont">
+                            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/car-1-img.png" class="fav-img" />
+                            <audio controls src="https://res.cloudinary.com/dinnubunny/video/upload/v1647916159/Sandro_Cavazza_Georgia_Ku_-_Love_To_Lose_xymjyh.mp3" type=audio/mpeg>
+                            </audio>
+                        </div>
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/car-2-img.png" class="fav-img" />
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/car-3-img.png" class="fav-img" />
+                        <img src="https://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2" class="fav-img" />
+                        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/1_rangerover_tracking.jpg" class="fav-img" />
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-rolls-royce-phantom-1536152159.png" class="fav-img" />
+                        <img src="https://cdn.motor1.com/images/mgl/nO84y/s3/2023-nissan-z.webp" class="fav-img" />
+                    </div>
+                </div>
+                <hr />
+                <hr />
+                <div class="fav-containers">
+                    <h1 class="fav-container-heading" id="bikeId">Bikes</h1>
+                    <div class="fav-img-container">
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/bike-1-img.png" class="fav-img" />
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/bike-2-img.png" class="fav-img" />
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/bike-3-img.png" class="fav-img" />
+                    </div>
+                </div>
+                <hr />
+                <hr />
+                <div class="fav-containers">
+                    <h1 class="fav-container-heading" id="houseId">Houses</h1>
+                    <div class="fav-img-container">
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/house-1-img.png" class="fav-img" />
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/house-2-img.png" class="fav-img" />
+                        <img src="https://assets.ccbp.in/frontend/intermediate-rwd/house-3-img.png" class="fav-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="SlideBar.js" type="text/javascript"></script>
+</body>
+
+</html>
