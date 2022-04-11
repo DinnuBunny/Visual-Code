@@ -1,0 +1,42 @@
+
+
+html, body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: auto 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: 40px;
+    border-radius: 20px;
+    background-color: darkgray;
+    height: 200px;
+    overflow-y: scroll;
+   
+}
+
+.para{
+    color: maroon;
+    font-size: 18px;
+}
+
+.button{
+    display: grid;
+    place-items: center;
+    position: sticky;
+    bottom: 20px;
+    right: 	20px;
+    place-self: end;
+    margin: calc(10px);
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #6600ff;
+    border-radius: 8px;
+    align-self: flex-end;
+}

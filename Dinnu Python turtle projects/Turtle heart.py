@@ -4,6 +4,12 @@ turtle.title("Heart Shape")
 
 screen = turtle.Screen()
 screen.bgcolor("black")
+
+t.speed(5)
+t.penup()
+t.goto(0,-100)
+t.pendown()
+
 t.color("orange")
 t.begin_fill()
 t.fillcolor('red')
