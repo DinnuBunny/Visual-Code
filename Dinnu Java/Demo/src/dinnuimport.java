@@ -6,7 +6,6 @@ public class dinnuimport {
 
         App suming = new App();
 
-        int output = suming.greet(20, 30);
-        System.out.println(output);
+        suming.printStarPattern(10);
     }
 }
